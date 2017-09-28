@@ -1,0 +1,22 @@
+1. Því að það leitar eftir ID-inu og það geta ekki nokkur element verið með sama ID attribute
+
+2. Það leitar eftir CSS selector og getur leitað upp fleiri en eitt element
+	//TODO gera kóðasýnidæmi
+	
+3.
+	var elements = document.getElementsByTagName('li'); //sækir allt efir taginu 'li'
+	if (elements.length > 0) { // ef að það finnur einhver tög þá heldur það áfram
+		var el = elements[2]; // gefur variable el gildið af þriðja iteminu í elements
+		el.className = 'cool'; // setur það item sem gildið 'cool'
+	}
+	
+4. Það finnur eftir HTML tögum t.d. 
+	document.getElementsByTagName('h1');
+	þá ætti þetta að finna öll tög sem eru <h1>
+	
+5. 
+
+6. var firstItem = elList = document.getElementById('one').firstChild;
+   var reqItem = firstItem.nextSibling;
+   þá ætti reqItem = pine nuts
+
